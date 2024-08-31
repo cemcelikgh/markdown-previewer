@@ -1,4 +1,5 @@
 import { marked } from 'marked';
+import { useState } from 'react';
 
 marked.use({
   breaks: true,
@@ -9,7 +10,9 @@ function Preview({text, display, setDisplay}) {
   
   const html = marked.parse(text);
 
-  const previewElement = (icon = 'fa-expand') => {
+  const [icon, setIcon] = useState('fa-expand');
+
+  const previewElement = () => {
     return (
       <section id="preview-section">
         <div className='top-bar'>
@@ -29,17 +32,19 @@ function Preview({text, display, setDisplay}) {
 
   function handleToggle () {
     if (display.editor === true) {
-      previewElement('fa-expand');
+      setIcon('fa-compress');
       setDisplay({
         ...display,
         editor: false
       });
+      previewElement();
     } else {
-      previewElement('fa-compress');
+      setIcon('fa-expand');
       setDisplay({
         ...display,
         editor: true
       });
+      previewElement();
     }
   };
 
