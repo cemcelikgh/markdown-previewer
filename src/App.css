@@ -19,6 +19,10 @@ i {
   font-size: 20px;
 }
 
+.fa-expand, .fa-compress {
+  cursor: pointer;
+}
+
 .fa-keyboard::after {
   content: ' Editor';
   font-family: sans-serif;

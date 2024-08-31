@@ -38,22 +38,22 @@ function Editor({text, setText, display, setDisplay}) {
         icon: 'fa-compress',
         area: {minHeight: '90vh'}
       });
-      editElement();
       setDisplay({
         ...display,
         previewer: false
       });
+      editElement();
     } else {
       setSize({
         ...size,
         icon: 'fa-expand',
         area: null
       });
-      editElement();
       setDisplay({
         ...display,
         previewer: true
       });
+      editElement();
     }
   };
 

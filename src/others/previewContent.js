@@ -1,6 +1,6 @@
-const initialText = `# Welcome to my React Markdown Previewer!
+const previewCodes = `# Welcome to my React Markdown Previewer!
 
-![freeCodeCamp Logo](./freecodecamp.svg)
+![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
 
 ### This is a heading...
 
@@ -36,7 +36,7 @@ And here. | Okay. | I think we get it.
 - And of course there are lists.
   - Some are bulleted.
      - With different indentation levels.
-        - That look like this.
+     - That look like this.
 
 
 1. And there are numbered lists too.
@@ -44,4 +44,4 @@ And here. | Okay. | I think we get it.
 1. And last
 `;
 
-export default initialText;
+export default previewCodes;

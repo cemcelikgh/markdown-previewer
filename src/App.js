@@ -3,7 +3,7 @@ import './others/preview.css';
 import { useState } from 'react';
 import Editor from './components/Editor';
 import Preview from './components/Preview';
-import initialText from './others/defaultText';
+import initialText from './others/previewContent';
 
 function App() {
 

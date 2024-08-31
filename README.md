@@ -1,8 +1,7 @@
-# markdown_previewer-freecodecamp
-Front End Development Libraries Certification Project
+# markdown-previewer
+freeCodeCamp Front End Development Libraries Certification Project
 <br>Markdown Previewer
-<br>An app that you previews the markdown
 
-[freeCodeCamp](https://www.freecodecamp.org)
+Browse: <https://cemcelikgh.github.io/markdown-previewer/>
 
-![Telephone Number Validator](./markdown-previewer.jpg)
+[![Markdown Previewer Preview](./public/assets/markdown-previewer-preview.jpg "Browse Markdown Previewer")](https://cemcelikgh.github.io/markdown-previewer/)
