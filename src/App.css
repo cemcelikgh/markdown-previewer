@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid black;
-  background-color: 	var(--dark-blue);
+  background-color: var(--dark-blue);
 }
 
 .top-bar-left {

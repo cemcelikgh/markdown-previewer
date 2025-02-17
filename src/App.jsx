@@ -1,5 +1,4 @@
 import './App.css';
-import './others/preview.css';
 import { useState } from 'react';
 import Editor from './components/Editor';
 import Preview from './components/Preview';
@@ -27,7 +26,6 @@ function App() {
       {display.previewer === true
         ? <Preview
             text={text}
-            setText={setText}
             display={display}
             setDisplay={setDisplay}
           />

@@ -16,10 +16,12 @@ body {
   background-color: var(--blue);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5rem;
+  overflow-x: hidden;
 }
 
 #root {
   max-width: 830px;
+  min-width: 300px;
   margin: 10px auto;
   padding: 10px;
 }

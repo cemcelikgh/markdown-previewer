@@ -1,6 +1,6 @@
 const previewCodes = `# Welcome to my React Markdown Previewer!
 
-![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
+![freeCodeCamp Logo](https://raw.githubusercontent.com/cemcelikgh/markdown-previewer/0c4fb4754bfc8d4951a211f37ef389403a679e16/public/assets/fcc_secondary.svg)
 
 ### This is a heading...
 

@@ -8,6 +8,10 @@ marked
 <br>Jul 2024
 <br><https://marked.js.org/>
 
+HTML to React parser
+<br>Feb 2025
+<br><https://github.com/remarkablemark/html-react-parser#readme>
+
 fontawesome/
 <br>Jul 2024
 <br><https://fontawesome.com/v6/download>
