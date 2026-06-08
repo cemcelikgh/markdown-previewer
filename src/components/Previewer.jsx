@@ -5,7 +5,7 @@ import parse from 'html-react-parser';
 
 marked.use({
   breaks: true,
-  gfm: true,
+  gfm: true
 });
 
 function Preview({text, display, setDisplay}) {

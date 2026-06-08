@@ -1,4 +1,4 @@
-const previewCodes = `# Welcome to my React Markdown Previewer!
+const initialTextCodes = `# Welcome to Markdown Previewer!
 
 ![freeCodeCamp Logo](https://raw.githubusercontent.com/cemcelikgh/markdown-previewer/0c4fb4754bfc8d4951a211f37ef389403a679e16/public/assets/fcc_secondary.svg)
 
@@ -44,4 +44,4 @@ And here. | Okay. | I think we get it.
 1. And last
 `;
 
-export default previewCodes;
+export default initialTextCodes;

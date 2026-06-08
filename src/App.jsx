@@ -1,12 +1,12 @@
 import './App.css';
 import { useState } from 'react';
 import Editor from './components/Editor';
-import Preview from './components/Preview';
-import initialText from './others/previewContent';
+import Preview from './components/Previewer';
+import initialTextCodes from './others/initialTextCodes';
 
 function App() {
 
-  const [text, setText] = useState(initialText);
+  const [text, setText] = useState(initialTextCodes);
   const [display, setDisplay] = useState({
     editor: true,
     previewer: true

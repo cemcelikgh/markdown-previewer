@@ -10,7 +10,6 @@ function Editor({text, setText, display, setDisplay}) {
   function handleToggle () {
     if (display.previewer === true) {
       setSize({
-        ...size,
         icon: 'fa-compress',
         area: {minHeight: '90vh'}
       });
@@ -20,7 +19,6 @@ function Editor({text, setText, display, setDisplay}) {
       });
     } else {
       setSize({
-        ...size,
         icon: 'fa-expand',
         area: undefined
       });
